@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        html, body { height:100%; overflow:hidden }
+
+
+        #left{width:50%; height: 94%;float:left;overflow: hidden;background-color:deepskyblue; margin: 0 auto }
+        /*배경사진을 구하기 어려워 배경색으로 대체함*/
+        #left img{float:left}
+        #left div {margin: 50px auto; width: 500px; position:relative;top:200px;}
+        #left p{color:white; font-weight: bold; font-size:20px;}
+        #right{width:50%;height: 94%; overflow: hidden; float:left;background-color: white;}
+        #right .login { margin:15px auto; overflow: hidden; width:600px}
+        #right .login div{float:left ;margin: 0 10px}
+        #right .login div:nth-child(2) a{text-decoration:none; color:lightgray; font-size: 15px}
+        #right .login div:nth-child(2) a:hover{text-decoration: underline;}
+        #right .login button{border-radius: 50px; font-size: 16px; color:deepskyblue; height: 40px; with:150px ;margin: 7px;
+                             font-weight: bold;border: 1px solid skyblue; background-color: white}
+        #right .login input{height: 40px;width:200px ;border-radius: 2px; border: 1px solid lightgray; padding:5px;font-size:15px;}
+        #right .mid {margin: 0 auto; width: 500px; position:relative;top:100px; font-size:26px; font-weight: bold;width: 340px}
+
+        #right .mid p{margin:0 auto}
+
+        #right .right-bottom{margin: 0 auto; width: 500px; position:relative;top:130px; width:340px}
+        #right .right-bottom p{font-weight: bold;font-size:18px}
+        #right .right-bottom button{border-radius :30px; width :340px; height: 30px; margin:5px; border: 1px solid deepskyblue;font-weight: bold}
+        #right .sign-up{background-color:deepskyblue; color:white}
+        #right .sign-up:hover{background-color:royalblue}
+        #right .log-in{background-color: white; color:deepskyblue}
+        #right .log-in:hover{background-color: lavender}
+
+
+        #bottom{width:100%; height: 80px; line-height:35px; background-color:aliceblue;margin:0 auto; }
+        #bottom ul{overflow: hidden}
+        #bottom ul li {float:left; list-style:none; margin: 0px 10px; color: gray;font-size: 12px}
+        #bottom ul li a{text-decoration:none; color:gray; font-size: 12px}
+        #bottom ul li a:hover{text-decoration: underline;}
+
+
+    </style>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+</head>
+<body>
+
+<div id="left">
+    <div><img src="" alt="돋보기"/><p>관심사를 팔로우하세요.</p></div>
+    <div><img src="" alt="사람 그림"/><p>사람들이 이야기하고 있는 주제에 대해 알아보세요.</p></div>
+    <div><img src="" alt="말풍선"/><p>대화에 참여하세요.</div>
+</div>
+
+<div id="right">
+    <div class="login">
+        <div><input type="text" placeholder="휴대전화 번호, 이메일주소 또는"></div>
+        <div><input type="password" placeholder="비밀번호"/><br/><a href="">비밀번호 찾기</a></div>
+        <div><button type="button"style='cursor:pointer;'class="log"><span>로그인</span></button></div>
+    </div>
+
+    <div class="mid">
+    <img src="https://upload.wikimedia.org/wikipedia/ko/9/9e/%ED%8A%B8%EC%9C%84%ED%84%B0_%EB%A1%9C%EA%B3%A0_%282012%29.svg" alt="새" width="30px" height="30px"/>
+        <p>지금 세계 곳곳에서 무슨 일이 일어나고 있는지 확인하세요.</p>
+    </div>
+
+    <div class="right-bottom">
+        <div><p>지금 트위터에 가입하세요.</p></div>
+        <div><button type="button"style='cursor:pointer;' class="sign-up"><span>가입하기</span></button></div>
+        <div><button type="button"style='cursor:pointer;' class="log-in"><span>로그인</span></button></div>
+    </div>
+
+</div>
+
+<div id="bottom">
+    <ul>
+        <li><a href="">회사소개</a></li>
+        <li><a href="">고객센터</a></li>
+        <li><a href="">블로그</a></li>
+        <li><a href="">시스템 현황</a></li>
+        <li><a href="">인재채용</a></li>
+        <li><a href="">이용약관</a></li>
+        <li><a href="">개인정보 처리방침</a></li>
+        <li><a href="">쿠키</a></li>
+        <li><a href="">광고정보</a></li>
+        <li><a href="">브랜드</a></li>
+        <li><a href="">어플리케이션</a></li>
+        <li><a href="">광고</a></li>
+        <li><a href="">마케팅</a></li>
+        <li><a href="">비즈니스</a></li>
+        <li><a href="">개발자</a></li>
+        <li><a href="">디렉토리</a></li>
+        <li><a href="">설정</a></li>
+        <li>© 2019 Twitter</li>
+    </ul>
+</div>

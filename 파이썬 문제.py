@@ -10,5 +10,5 @@ for i in range(1, a):
     if sum == a:
         print(i)
         break;
-else:
+if sum!=a:
     print("생성자가 없습니다.")
